@@ -1,16 +1,8 @@
-title: The SERIAL OOT Module
-brief: Short description of gr-serial
-tags: # Tags are arbitrary, but look at CGRAN what other authors are using
-  - sdr
-author:
-  - Author Name <authors@email.address>
-copyright_owner:
-  - Copyright Owner 1
-license:
-#repo: # Put the URL of the repository here, or leave blank for default
-#website: <module_website> # If you have a separate project website, put it here
-#icon: <icon_url> # Put a URL to a square image here that will be used as an icon on CGRAN
----
-A longer, multi-line description of gr-serial.
-You may use some *basic* Markdown here.
-If left empty, it will try to find a README file instead.
+Software defined radio OOT( oout of tree block ) for radio transceivers with serial interface or which can be connected to linux computer with some kind of ttl-usb adapters.
+
+This gnu radio block sends and receives data from radio transceivers like lora, nrf24L01 radio transceivers and publisher, subscribes the data from ip network.
+
+Benefits:
+1. Easy mesh network implementation over multiple robots.
+2. Ip network can be used to send/receive data.
+3. ROS or ROS2 topics can be easily published and subscribed from this network. 
