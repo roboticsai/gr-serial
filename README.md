@@ -6,3 +6,5 @@ Benefits:
 1. Easy mesh network implementation over multiple robots.
 2. Ip network can be used to send/receive data.
 3. ROS or ROS2 topics can be easily published and subscribed from this network. 
+
+Note: Different branches have different features in work
