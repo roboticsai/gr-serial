@@ -56,6 +56,52 @@ CMAKE_BINARY_DIR = /home/linux/gr-serial/build
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -111,124 +157,43 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named server
+# Target rules for targets named CppLinuxSerial
 
 # Build rule for target.
-server: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 server
-.PHONY : server
+CppLinuxSerial: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CppLinuxSerial
+.PHONY : CppLinuxSerial
 
 # fast build rule for target.
-server/fast:
-	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/build
-.PHONY : server/fast
+CppLinuxSerial/fast:
+	$(MAKE) -f src/CMakeFiles/CppLinuxSerial.dir/build.make src/CMakeFiles/CppLinuxSerial.dir/build
+.PHONY : CppLinuxSerial/fast
 
 #=============================================================================
-# Target rules for targets named gr-networking
+# Target rules for targets named write_serial
 
 # Build rule for target.
-gr-networking: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 gr-networking
-.PHONY : gr-networking
+write_serial: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 write_serial
+.PHONY : write_serial
 
 # fast build rule for target.
-gr-networking/fast:
-	$(MAKE) -f CMakeFiles/gr-networking.dir/build.make CMakeFiles/gr-networking.dir/build
-.PHONY : gr-networking/fast
+write_serial/fast:
+	$(MAKE) -f example/CMakeFiles/write_serial.dir/build.make example/CMakeFiles/write_serial.dir/build
+.PHONY : write_serial/fast
 
 #=============================================================================
-# Target rules for targets named client
+# Target rules for targets named read_serial
 
 # Build rule for target.
-client: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 client
-.PHONY : client
+read_serial: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 read_serial
+.PHONY : read_serial
 
 # fast build rule for target.
-client/fast:
-	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/build
-.PHONY : client/fast
-
-client.o: client.c.o
-
-.PHONY : client.o
-
-# target to build an object file
-client.c.o:
-	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client.c.o
-.PHONY : client.c.o
-
-client.i: client.c.i
-
-.PHONY : client.i
-
-# target to preprocess a source file
-client.c.i:
-	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client.c.i
-.PHONY : client.c.i
-
-client.s: client.c.s
-
-.PHONY : client.s
-
-# target to generate assembly for a file
-client.c.s:
-	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client.c.s
-.PHONY : client.c.s
-
-gr_networking.o: gr_networking.cpp.o
-
-.PHONY : gr_networking.o
-
-# target to build an object file
-gr_networking.cpp.o:
-	$(MAKE) -f CMakeFiles/gr-networking.dir/build.make CMakeFiles/gr-networking.dir/gr_networking.cpp.o
-.PHONY : gr_networking.cpp.o
-
-gr_networking.i: gr_networking.cpp.i
-
-.PHONY : gr_networking.i
-
-# target to preprocess a source file
-gr_networking.cpp.i:
-	$(MAKE) -f CMakeFiles/gr-networking.dir/build.make CMakeFiles/gr-networking.dir/gr_networking.cpp.i
-.PHONY : gr_networking.cpp.i
-
-gr_networking.s: gr_networking.cpp.s
-
-.PHONY : gr_networking.s
-
-# target to generate assembly for a file
-gr_networking.cpp.s:
-	$(MAKE) -f CMakeFiles/gr-networking.dir/build.make CMakeFiles/gr-networking.dir/gr_networking.cpp.s
-.PHONY : gr_networking.cpp.s
-
-server.o: server.c.o
-
-.PHONY : server.o
-
-# target to build an object file
-server.c.o:
-	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/server.c.o
-.PHONY : server.c.o
-
-server.i: server.c.i
-
-.PHONY : server.i
-
-# target to preprocess a source file
-server.c.i:
-	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/server.c.i
-.PHONY : server.c.i
-
-server.s: server.c.s
-
-.PHONY : server.s
-
-# target to generate assembly for a file
-server.c.s:
-	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/server.c.s
-.PHONY : server.c.s
+read_serial/fast:
+	$(MAKE) -f example/CMakeFiles/read_serial.dir/build.make example/CMakeFiles/read_serial.dir/build
+.PHONY : read_serial/fast
 
 # Help Target
 help:
@@ -236,20 +201,15 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... install/strip"
+	@echo "... install"
+	@echo "... install/local"
+	@echo "... list_install_components"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... server"
-	@echo "... gr-networking"
-	@echo "... client"
-	@echo "... client.o"
-	@echo "... client.i"
-	@echo "... client.s"
-	@echo "... gr_networking.o"
-	@echo "... gr_networking.i"
-	@echo "... gr_networking.s"
-	@echo "... server.o"
-	@echo "... server.i"
-	@echo "... server.s"
+	@echo "... CppLinuxSerial"
+	@echo "... write_serial"
+	@echo "... read_serial"
 .PHONY : help
 
 

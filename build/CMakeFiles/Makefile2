@@ -60,113 +60,151 @@ CMAKE_SOURCE_DIR = /home/linux/gr-serial
 CMAKE_BINARY_DIR = /home/linux/gr-serial/build
 
 #=============================================================================
-# Target rules for target CMakeFiles/server.dir
+# Directory level rules for directory src
+
+# Convenience name for "all" pass in the directory.
+src/all: src/CMakeFiles/CppLinuxSerial.dir/all
+
+.PHONY : src/all
+
+# Convenience name for "clean" pass in the directory.
+src/clean: src/CMakeFiles/CppLinuxSerial.dir/clean
+
+.PHONY : src/clean
+
+# Convenience name for "preinstall" pass in the directory.
+src/preinstall:
+
+.PHONY : src/preinstall
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/CppLinuxSerial.dir
 
 # All Build rule for target.
-CMakeFiles/server.dir/all:
-	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/depend
-	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/linux/gr-serial/build/CMakeFiles --progress-num=5,6 "Built target server"
-.PHONY : CMakeFiles/server.dir/all
+src/CMakeFiles/CppLinuxSerial.dir/all:
+	$(MAKE) -f src/CMakeFiles/CppLinuxSerial.dir/build.make src/CMakeFiles/CppLinuxSerial.dir/depend
+	$(MAKE) -f src/CMakeFiles/CppLinuxSerial.dir/build.make src/CMakeFiles/CppLinuxSerial.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/linux/gr-serial/build/CMakeFiles --progress-num=1,2 "Built target CppLinuxSerial"
+.PHONY : src/CMakeFiles/CppLinuxSerial.dir/all
 
 # Include target in all.
-all: CMakeFiles/server.dir/all
+all: src/CMakeFiles/CppLinuxSerial.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/server.dir/rule: cmake_check_build_system
+src/CMakeFiles/CppLinuxSerial.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/linux/gr-serial/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/server.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/CppLinuxSerial.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/linux/gr-serial/build/CMakeFiles 0
-.PHONY : CMakeFiles/server.dir/rule
+.PHONY : src/CMakeFiles/CppLinuxSerial.dir/rule
 
 # Convenience name for target.
-server: CMakeFiles/server.dir/rule
+CppLinuxSerial: src/CMakeFiles/CppLinuxSerial.dir/rule
 
-.PHONY : server
-
-# clean rule for target.
-CMakeFiles/server.dir/clean:
-	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/clean
-.PHONY : CMakeFiles/server.dir/clean
+.PHONY : CppLinuxSerial
 
 # clean rule for target.
-clean: CMakeFiles/server.dir/clean
+src/CMakeFiles/CppLinuxSerial.dir/clean:
+	$(MAKE) -f src/CMakeFiles/CppLinuxSerial.dir/build.make src/CMakeFiles/CppLinuxSerial.dir/clean
+.PHONY : src/CMakeFiles/CppLinuxSerial.dir/clean
+
+# clean rule for target.
+clean: src/CMakeFiles/CppLinuxSerial.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/gr-networking.dir
+# Directory level rules for directory example
+
+# Convenience name for "all" pass in the directory.
+example/all: example/CMakeFiles/write_serial.dir/all
+example/all: example/CMakeFiles/read_serial.dir/all
+
+.PHONY : example/all
+
+# Convenience name for "clean" pass in the directory.
+example/clean: example/CMakeFiles/write_serial.dir/clean
+example/clean: example/CMakeFiles/read_serial.dir/clean
+
+.PHONY : example/clean
+
+# Convenience name for "preinstall" pass in the directory.
+example/preinstall:
+
+.PHONY : example/preinstall
+
+#=============================================================================
+# Target rules for target example/CMakeFiles/write_serial.dir
 
 # All Build rule for target.
-CMakeFiles/gr-networking.dir/all:
-	$(MAKE) -f CMakeFiles/gr-networking.dir/build.make CMakeFiles/gr-networking.dir/depend
-	$(MAKE) -f CMakeFiles/gr-networking.dir/build.make CMakeFiles/gr-networking.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/linux/gr-serial/build/CMakeFiles --progress-num=3,4 "Built target gr-networking"
-.PHONY : CMakeFiles/gr-networking.dir/all
+example/CMakeFiles/write_serial.dir/all: src/CMakeFiles/CppLinuxSerial.dir/all
+	$(MAKE) -f example/CMakeFiles/write_serial.dir/build.make example/CMakeFiles/write_serial.dir/depend
+	$(MAKE) -f example/CMakeFiles/write_serial.dir/build.make example/CMakeFiles/write_serial.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/linux/gr-serial/build/CMakeFiles --progress-num=5,6 "Built target write_serial"
+.PHONY : example/CMakeFiles/write_serial.dir/all
 
 # Include target in all.
-all: CMakeFiles/gr-networking.dir/all
+all: example/CMakeFiles/write_serial.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/gr-networking.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/linux/gr-serial/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/gr-networking.dir/all
+example/CMakeFiles/write_serial.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/linux/gr-serial/build/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 example/CMakeFiles/write_serial.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/linux/gr-serial/build/CMakeFiles 0
-.PHONY : CMakeFiles/gr-networking.dir/rule
+.PHONY : example/CMakeFiles/write_serial.dir/rule
 
 # Convenience name for target.
-gr-networking: CMakeFiles/gr-networking.dir/rule
+write_serial: example/CMakeFiles/write_serial.dir/rule
 
-.PHONY : gr-networking
-
-# clean rule for target.
-CMakeFiles/gr-networking.dir/clean:
-	$(MAKE) -f CMakeFiles/gr-networking.dir/build.make CMakeFiles/gr-networking.dir/clean
-.PHONY : CMakeFiles/gr-networking.dir/clean
+.PHONY : write_serial
 
 # clean rule for target.
-clean: CMakeFiles/gr-networking.dir/clean
+example/CMakeFiles/write_serial.dir/clean:
+	$(MAKE) -f example/CMakeFiles/write_serial.dir/build.make example/CMakeFiles/write_serial.dir/clean
+.PHONY : example/CMakeFiles/write_serial.dir/clean
+
+# clean rule for target.
+clean: example/CMakeFiles/write_serial.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/client.dir
+# Target rules for target example/CMakeFiles/read_serial.dir
 
 # All Build rule for target.
-CMakeFiles/client.dir/all:
-	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/depend
-	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/linux/gr-serial/build/CMakeFiles --progress-num=1,2 "Built target client"
-.PHONY : CMakeFiles/client.dir/all
+example/CMakeFiles/read_serial.dir/all: src/CMakeFiles/CppLinuxSerial.dir/all
+	$(MAKE) -f example/CMakeFiles/read_serial.dir/build.make example/CMakeFiles/read_serial.dir/depend
+	$(MAKE) -f example/CMakeFiles/read_serial.dir/build.make example/CMakeFiles/read_serial.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/linux/gr-serial/build/CMakeFiles --progress-num=3,4 "Built target read_serial"
+.PHONY : example/CMakeFiles/read_serial.dir/all
 
 # Include target in all.
-all: CMakeFiles/client.dir/all
+all: example/CMakeFiles/read_serial.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/client.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/linux/gr-serial/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/client.dir/all
+example/CMakeFiles/read_serial.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/linux/gr-serial/build/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 example/CMakeFiles/read_serial.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/linux/gr-serial/build/CMakeFiles 0
-.PHONY : CMakeFiles/client.dir/rule
+.PHONY : example/CMakeFiles/read_serial.dir/rule
 
 # Convenience name for target.
-client: CMakeFiles/client.dir/rule
+read_serial: example/CMakeFiles/read_serial.dir/rule
 
-.PHONY : client
-
-# clean rule for target.
-CMakeFiles/client.dir/clean:
-	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/clean
-.PHONY : CMakeFiles/client.dir/clean
+.PHONY : read_serial
 
 # clean rule for target.
-clean: CMakeFiles/client.dir/clean
+example/CMakeFiles/read_serial.dir/clean:
+	$(MAKE) -f example/CMakeFiles/read_serial.dir/build.make example/CMakeFiles/read_serial.dir/clean
+.PHONY : example/CMakeFiles/read_serial.dir/clean
+
+# clean rule for target.
+clean: example/CMakeFiles/read_serial.dir/clean
 
 .PHONY : clean
 

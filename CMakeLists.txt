@@ -1,18 +1,29 @@
-cmake_minimum_required(VERSION 3.8)
-project(gr-networking)
+cmake_minimum_required(VERSION 3.1.0)
+project(CppLinuxSerial)
 
-find_package(Gnuradio "3.8" REQUIRED COMPONENTS filter fft digital analog blocks)
-include(GrVersion)
+add_definitions(-std=c++14)
 
-add_executable(server server.c)
-add_executable(client client.c)
+option(BUILD_TESTS "If set to true, unit tests will be build as part of make all." TRUE)
+if (BUILD_TESTS)
+    message("BUILD_TESTS=TRUE, unit tests will be built.")
+else ()
+    message("BUILD_TESTS=FALSE, unit tests will NOT be built.")
+endif ()
 
-add_executable(gr-networking gr_networking.cpp)
-target_link_libraries(gr-networking
-	gnuradio::gnuradio-runtime
-	gnuradio::gnuradio-filter
-	gnuradio::gnuradio-blocks
-	gnuradio::gnuradio-analog
-	gnuradio::gnuradio-fft
-	gnuradio::gnuradio-digital)
+#=================================================================================================#
+#========================================= gtest INSTALL =========================================#
+#=================================================================================================#
 
+#=================================================================================================#
+#========================================= This Project ==========================================#
+#=================================================================================================#
+
+# Now simply link your own targets against gtest, gmock,
+# etc. as appropriate
+include_directories(include)
+
+add_subdirectory(src)
+add_subdirectory(example)
+if(BUILD_TESTS)
+    #add_subdirectory(test/unit)
+endif()

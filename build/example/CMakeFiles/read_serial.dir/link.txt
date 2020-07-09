@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/read_serial.dir/read_serial.cpp.o  -o read_serial ../src/libCppLinuxSerial.a 

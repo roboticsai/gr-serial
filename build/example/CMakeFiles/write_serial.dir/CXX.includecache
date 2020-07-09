@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/CppLinuxSerial/Exception.hpp
+iostream
+-
+sstream
+-
+stdexcept
+-
+string
+-
+
+../include/CppLinuxSerial/SerialPort.hpp
+string
+-
+fstream
+-
+sstream
+-
+termios.h
+-
+vector
+-
+Exception.hpp
+../include/CppLinuxSerial/Exception.hpp
+
+/home/linux/gr-serial/example/write_serial.cpp
+iostream
+-
+CppLinuxSerial/SerialPort.hpp
+/home/linux/gr-serial/example/CppLinuxSerial/SerialPort.hpp
+

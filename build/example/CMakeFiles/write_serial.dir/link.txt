@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/write_serial.dir/write_serial.cpp.o  -o write_serial ../src/libCppLinuxSerial.a 
