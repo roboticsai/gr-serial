@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/home/linux/gr-serial/build/CM
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/linux/gr-serial/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_22a5b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_22a5b.dir/build.make CMakeFiles/cmTC_22a5b.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_bf582/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bf582.dir/build.make CMakeFiles/cmTC_bf582.dir/build
 make[1]: Entering directory '/home/linux/gr-serial/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_22a5b.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_22a5b.dir/testCCompiler.c.o   -c /home/linux/gr-serial/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_22a5b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22a5b.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_22a5b.dir/testCCompiler.c.o  -o cmTC_22a5b 
+Building C object CMakeFiles/cmTC_bf582.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_bf582.dir/testCCompiler.c.o   -c /home/linux/gr-serial/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_bf582
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf582.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_bf582.dir/testCCompiler.c.o  -o cmTC_bf582 
 make[1]: Leaving directory '/home/linux/gr-serial/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/linux/gr-serial/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1a496/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1a496.dir/build.make CMakeFiles/cmTC_1a496.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_fea05/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fea05.dir/build.make CMakeFiles/cmTC_fea05.dir/build
 make[1]: Entering directory '/home/linux/gr-serial/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1a496.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_1a496.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_1a496
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a496.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTC_1a496.dir/CMakeCCompilerABI.c.o  -o cmTC_1a496 
+Building C object CMakeFiles/cmTC_fea05.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_fea05.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_fea05
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fea05.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_fea05.dir/CMakeCCompilerABI.c.o  -o cmTC_fea05 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -61,9 +61,9 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1a496' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYOw1ma.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_1a496 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_1a496.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1a496' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fea05' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccU5K2IM.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_fea05 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_fea05.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fea05' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/linux/gr-serial/build/CMakeFiles/CMakeTmp'
 
 
@@ -71,14 +71,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/linux/gr-serial/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_1a496/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_1a496.dir/build.make CMakeFiles/cmTC_1a496.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_fea05/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_fea05.dir/build.make CMakeFiles/cmTC_fea05.dir/build]
   ignore line: [make[1]: Entering directory '/home/linux/gr-serial/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_1a496.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_1a496.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_1a496]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a496.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_1a496.dir/CMakeCCompilerABI.c.o  -o cmTC_1a496 ]
+  ignore line: [Building C object CMakeFiles/cmTC_fea05.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_fea05.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_fea05]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fea05.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_fea05.dir/CMakeCCompilerABI.c.o  -o cmTC_fea05 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -90,13 +90,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1a496' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYOw1ma.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_1a496 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_1a496.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fea05' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccU5K2IM.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_fea05 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_fea05.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccYOw1ma.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccU5K2IM.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -114,7 +114,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_1a496] ==> ignore
+    arg [cmTC_fea05] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -126,7 +126,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_1a496.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_fea05.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -158,14 +158,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/linux/gr-serial/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bee20/fast"
-/usr/bin/make -f CMakeFiles/cmTC_bee20.dir/build.make CMakeFiles/cmTC_bee20.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_85a62/fast"
+/usr/bin/make -f CMakeFiles/cmTC_85a62.dir/build.make CMakeFiles/cmTC_85a62.dir/build
 make[1]: Entering directory '/home/linux/gr-serial/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bee20.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_bee20.dir/feature_tests.c.o   -c /home/linux/gr-serial/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_bee20
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bee20.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_bee20.dir/feature_tests.c.o  -o cmTC_bee20 
+Building C object CMakeFiles/cmTC_85a62.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_85a62.dir/feature_tests.c.o   -c /home/linux/gr-serial/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_85a62
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85a62.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_85a62.dir/feature_tests.c.o  -o cmTC_85a62 
 make[1]: Leaving directory '/home/linux/gr-serial/build/CMakeFiles/CMakeTmp'
 
 
@@ -178,14 +178,14 @@ make[1]: Leaving directory '/home/linux/gr-serial/build/CMakeFiles/CMakeTmp'
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/linux/gr-serial/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_415c8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_415c8.dir/build.make CMakeFiles/cmTC_415c8.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_9d15d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9d15d.dir/build.make CMakeFiles/cmTC_9d15d.dir/build
 make[1]: Entering directory '/home/linux/gr-serial/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_415c8.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_415c8.dir/feature_tests.c.o   -c /home/linux/gr-serial/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_415c8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_415c8.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_415c8.dir/feature_tests.c.o  -o cmTC_415c8 
+Building C object CMakeFiles/cmTC_9d15d.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_9d15d.dir/feature_tests.c.o   -c /home/linux/gr-serial/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_9d15d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d15d.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_9d15d.dir/feature_tests.c.o  -o cmTC_9d15d 
 make[1]: Leaving directory '/home/linux/gr-serial/build/CMakeFiles/CMakeTmp'
 
 
@@ -198,14 +198,14 @@ make[1]: Leaving directory '/home/linux/gr-serial/build/CMakeFiles/CMakeTmp'
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/linux/gr-serial/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f1da7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f1da7.dir/build.make CMakeFiles/cmTC_f1da7.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f1795/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f1795.dir/build.make CMakeFiles/cmTC_f1795.dir/build
 make[1]: Entering directory '/home/linux/gr-serial/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f1da7.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_f1da7.dir/feature_tests.c.o   -c /home/linux/gr-serial/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_f1da7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1da7.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_f1da7.dir/feature_tests.c.o  -o cmTC_f1da7 
+Building C object CMakeFiles/cmTC_f1795.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_f1795.dir/feature_tests.c.o   -c /home/linux/gr-serial/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f1795
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1795.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_f1795.dir/feature_tests.c.o  -o cmTC_f1795 
 make[1]: Leaving directory '/home/linux/gr-serial/build/CMakeFiles/CMakeTmp'
 
 
@@ -216,28 +216,28 @@ make[1]: Leaving directory '/home/linux/gr-serial/build/CMakeFiles/CMakeTmp'
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/linux/gr-serial/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_53b89/fast"
-/usr/bin/make -f CMakeFiles/cmTC_53b89.dir/build.make CMakeFiles/cmTC_53b89.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_53d6b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_53d6b.dir/build.make CMakeFiles/cmTC_53d6b.dir/build
 make[1]: Entering directory '/home/linux/gr-serial/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_53b89.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_53b89.dir/testCXXCompiler.cxx.o -c /home/linux/gr-serial/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_53b89
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53b89.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_53b89.dir/testCXXCompiler.cxx.o  -o cmTC_53b89 
+Building CXX object CMakeFiles/cmTC_53d6b.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_53d6b.dir/testCXXCompiler.cxx.o -c /home/linux/gr-serial/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_53d6b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53d6b.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_53d6b.dir/testCXXCompiler.cxx.o  -o cmTC_53d6b 
 make[1]: Leaving directory '/home/linux/gr-serial/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/linux/gr-serial/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d5f91/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d5f91.dir/build.make CMakeFiles/cmTC_d5f91.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_27d0a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_27d0a.dir/build.make CMakeFiles/cmTC_27d0a.dir/build
 make[1]: Entering directory '/home/linux/gr-serial/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d5f91.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_d5f91.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_d5f91
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5f91.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTC_d5f91.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d5f91 
+Building CXX object CMakeFiles/cmTC_27d0a.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_27d0a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_27d0a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27d0a.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_27d0a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_27d0a 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -249,9 +249,9 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d5f91' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccX3bTvt.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d5f91 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_d5f91.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d5f91' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_27d0a' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2Kxy2S.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_27d0a /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_27d0a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_27d0a' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/linux/gr-serial/build/CMakeFiles/CMakeTmp'
 
 
@@ -259,14 +259,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/linux/gr-serial/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_d5f91/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_d5f91.dir/build.make CMakeFiles/cmTC_d5f91.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_27d0a/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_27d0a.dir/build.make CMakeFiles/cmTC_27d0a.dir/build]
   ignore line: [make[1]: Entering directory '/home/linux/gr-serial/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_d5f91.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_d5f91.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_d5f91]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5f91.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_d5f91.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d5f91 ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_27d0a.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_27d0a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_27d0a]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27d0a.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_27d0a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_27d0a ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -278,13 +278,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d5f91' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccX3bTvt.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d5f91 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_d5f91.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_27d0a' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2Kxy2S.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_27d0a /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_27d0a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccX3bTvt.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc2Kxy2S.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -302,7 +302,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_d5f91] ==> ignore
+    arg [cmTC_27d0a] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -314,7 +314,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_d5f91.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_27d0a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -342,14 +342,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /home/linux/gr-serial/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cf447/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cf447.dir/build.make CMakeFiles/cmTC_cf447.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_0e8d5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0e8d5.dir/build.make CMakeFiles/cmTC_0e8d5.dir/build
 make[1]: Entering directory '/home/linux/gr-serial/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_cf447.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_cf447.dir/feature_tests.cxx.o -c /home/linux/gr-serial/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_cf447
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf447.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_cf447.dir/feature_tests.cxx.o  -o cmTC_cf447 
+Building CXX object CMakeFiles/cmTC_0e8d5.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_0e8d5.dir/feature_tests.cxx.o -c /home/linux/gr-serial/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_0e8d5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e8d5.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_0e8d5.dir/feature_tests.cxx.o  -o cmTC_0e8d5 
 make[1]: Leaving directory '/home/linux/gr-serial/build/CMakeFiles/CMakeTmp'
 
 
@@ -415,14 +415,14 @@ make[1]: Leaving directory '/home/linux/gr-serial/build/CMakeFiles/CMakeTmp'
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/linux/gr-serial/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b937c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b937c.dir/build.make CMakeFiles/cmTC_b937c.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_58279/fast"
+/usr/bin/make -f CMakeFiles/cmTC_58279.dir/build.make CMakeFiles/cmTC_58279.dir/build
 make[1]: Entering directory '/home/linux/gr-serial/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b937c.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_b937c.dir/feature_tests.cxx.o -c /home/linux/gr-serial/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_b937c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b937c.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_b937c.dir/feature_tests.cxx.o  -o cmTC_b937c 
+Building CXX object CMakeFiles/cmTC_58279.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_58279.dir/feature_tests.cxx.o -c /home/linux/gr-serial/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_58279
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58279.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_58279.dir/feature_tests.cxx.o  -o cmTC_58279 
 make[1]: Leaving directory '/home/linux/gr-serial/build/CMakeFiles/CMakeTmp'
 
 
@@ -488,14 +488,14 @@ make[1]: Leaving directory '/home/linux/gr-serial/build/CMakeFiles/CMakeTmp'
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/linux/gr-serial/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f5a58/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f5a58.dir/build.make CMakeFiles/cmTC_f5a58.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_6f1b0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6f1b0.dir/build.make CMakeFiles/cmTC_6f1b0.dir/build
 make[1]: Entering directory '/home/linux/gr-serial/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f5a58.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_f5a58.dir/feature_tests.cxx.o -c /home/linux/gr-serial/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_f5a58
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5a58.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_f5a58.dir/feature_tests.cxx.o  -o cmTC_f5a58 
+Building CXX object CMakeFiles/cmTC_6f1b0.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_6f1b0.dir/feature_tests.cxx.o -c /home/linux/gr-serial/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_6f1b0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f1b0.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_6f1b0.dir/feature_tests.cxx.o  -o cmTC_6f1b0 
 make[1]: Leaving directory '/home/linux/gr-serial/build/CMakeFiles/CMakeTmp'
 
 
@@ -561,14 +561,14 @@ make[1]: Leaving directory '/home/linux/gr-serial/build/CMakeFiles/CMakeTmp'
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/linux/gr-serial/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_521d1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_521d1.dir/build.make CMakeFiles/cmTC_521d1.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_9c2c8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9c2c8.dir/build.make CMakeFiles/cmTC_9c2c8.dir/build
 make[1]: Entering directory '/home/linux/gr-serial/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_521d1.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_521d1.dir/feature_tests.cxx.o -c /home/linux/gr-serial/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_521d1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_521d1.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_521d1.dir/feature_tests.cxx.o  -o cmTC_521d1 
+Building CXX object CMakeFiles/cmTC_9c2c8.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_9c2c8.dir/feature_tests.cxx.o -c /home/linux/gr-serial/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_9c2c8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c2c8.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_9c2c8.dir/feature_tests.cxx.o  -o cmTC_9c2c8 
 make[1]: Leaving directory '/home/linux/gr-serial/build/CMakeFiles/CMakeTmp'
 
 
@@ -632,28 +632,28 @@ make[1]: Leaving directory '/home/linux/gr-serial/build/CMakeFiles/CMakeTmp'
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /home/linux/gr-serial/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_85aff/fast"
-/usr/bin/make -f CMakeFiles/cmTC_85aff.dir/build.make CMakeFiles/cmTC_85aff.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_7b28f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7b28f.dir/build.make CMakeFiles/cmTC_7b28f.dir/build
 make[1]: Entering directory '/home/linux/gr-serial/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_85aff.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_85aff.dir/CheckIncludeFile.c.o   -c /home/linux/gr-serial/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_85aff
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85aff.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_85aff.dir/CheckIncludeFile.c.o  -o cmTC_85aff 
+Building C object CMakeFiles/cmTC_7b28f.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7b28f.dir/CheckIncludeFile.c.o   -c /home/linux/gr-serial/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7b28f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b28f.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_7b28f.dir/CheckIncludeFile.c.o  -o cmTC_7b28f 
 make[1]: Leaving directory '/home/linux/gr-serial/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
 Change Dir: /home/linux/gr-serial/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d57f5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d57f5.dir/build.make CMakeFiles/cmTC_d57f5.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_01dcb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_01dcb.dir/build.make CMakeFiles/cmTC_01dcb.dir/build
 make[1]: Entering directory '/home/linux/gr-serial/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d57f5.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_d57f5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_d57f5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d57f5.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_d57f5.dir/CheckFunctionExists.c.o  -o cmTC_d57f5 -lpthread 
+Building C object CMakeFiles/cmTC_01dcb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_01dcb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_01dcb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01dcb.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_01dcb.dir/CheckFunctionExists.c.o  -o cmTC_01dcb -lpthread 
 make[1]: Leaving directory '/home/linux/gr-serial/build/CMakeFiles/CMakeTmp'
 
 

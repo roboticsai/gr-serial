@@ -60,76 +60,113 @@ CMAKE_SOURCE_DIR = /home/linux/gr-serial
 CMAKE_BINARY_DIR = /home/linux/gr-serial/build
 
 #=============================================================================
-# Target rules for target CMakeFiles/gr-networking-sink.dir
+# Target rules for target CMakeFiles/server.dir
 
 # All Build rule for target.
-CMakeFiles/gr-networking-sink.dir/all:
-	$(MAKE) -f CMakeFiles/gr-networking-sink.dir/build.make CMakeFiles/gr-networking-sink.dir/depend
-	$(MAKE) -f CMakeFiles/gr-networking-sink.dir/build.make CMakeFiles/gr-networking-sink.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/linux/gr-serial/build/CMakeFiles --progress-num=1,2 "Built target gr-networking-sink"
-.PHONY : CMakeFiles/gr-networking-sink.dir/all
+CMakeFiles/server.dir/all:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/depend
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/linux/gr-serial/build/CMakeFiles --progress-num=5,6 "Built target server"
+.PHONY : CMakeFiles/server.dir/all
 
 # Include target in all.
-all: CMakeFiles/gr-networking-sink.dir/all
+all: CMakeFiles/server.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/gr-networking-sink.dir/rule: cmake_check_build_system
+CMakeFiles/server.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/linux/gr-serial/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/gr-networking-sink.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/server.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/linux/gr-serial/build/CMakeFiles 0
-.PHONY : CMakeFiles/gr-networking-sink.dir/rule
+.PHONY : CMakeFiles/server.dir/rule
 
 # Convenience name for target.
-gr-networking-sink: CMakeFiles/gr-networking-sink.dir/rule
+server: CMakeFiles/server.dir/rule
 
-.PHONY : gr-networking-sink
-
-# clean rule for target.
-CMakeFiles/gr-networking-sink.dir/clean:
-	$(MAKE) -f CMakeFiles/gr-networking-sink.dir/build.make CMakeFiles/gr-networking-sink.dir/clean
-.PHONY : CMakeFiles/gr-networking-sink.dir/clean
+.PHONY : server
 
 # clean rule for target.
-clean: CMakeFiles/gr-networking-sink.dir/clean
+CMakeFiles/server.dir/clean:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/clean
+.PHONY : CMakeFiles/server.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/server.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/gr-networking-source.dir
+# Target rules for target CMakeFiles/gr-networking.dir
 
 # All Build rule for target.
-CMakeFiles/gr-networking-source.dir/all:
-	$(MAKE) -f CMakeFiles/gr-networking-source.dir/build.make CMakeFiles/gr-networking-source.dir/depend
-	$(MAKE) -f CMakeFiles/gr-networking-source.dir/build.make CMakeFiles/gr-networking-source.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/linux/gr-serial/build/CMakeFiles --progress-num=3,4 "Built target gr-networking-source"
-.PHONY : CMakeFiles/gr-networking-source.dir/all
+CMakeFiles/gr-networking.dir/all:
+	$(MAKE) -f CMakeFiles/gr-networking.dir/build.make CMakeFiles/gr-networking.dir/depend
+	$(MAKE) -f CMakeFiles/gr-networking.dir/build.make CMakeFiles/gr-networking.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/linux/gr-serial/build/CMakeFiles --progress-num=3,4 "Built target gr-networking"
+.PHONY : CMakeFiles/gr-networking.dir/all
 
 # Include target in all.
-all: CMakeFiles/gr-networking-source.dir/all
+all: CMakeFiles/gr-networking.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/gr-networking-source.dir/rule: cmake_check_build_system
+CMakeFiles/gr-networking.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/linux/gr-serial/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/gr-networking-source.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/gr-networking.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/linux/gr-serial/build/CMakeFiles 0
-.PHONY : CMakeFiles/gr-networking-source.dir/rule
+.PHONY : CMakeFiles/gr-networking.dir/rule
 
 # Convenience name for target.
-gr-networking-source: CMakeFiles/gr-networking-source.dir/rule
+gr-networking: CMakeFiles/gr-networking.dir/rule
 
-.PHONY : gr-networking-source
-
-# clean rule for target.
-CMakeFiles/gr-networking-source.dir/clean:
-	$(MAKE) -f CMakeFiles/gr-networking-source.dir/build.make CMakeFiles/gr-networking-source.dir/clean
-.PHONY : CMakeFiles/gr-networking-source.dir/clean
+.PHONY : gr-networking
 
 # clean rule for target.
-clean: CMakeFiles/gr-networking-source.dir/clean
+CMakeFiles/gr-networking.dir/clean:
+	$(MAKE) -f CMakeFiles/gr-networking.dir/build.make CMakeFiles/gr-networking.dir/clean
+.PHONY : CMakeFiles/gr-networking.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/gr-networking.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/client.dir
+
+# All Build rule for target.
+CMakeFiles/client.dir/all:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/depend
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/linux/gr-serial/build/CMakeFiles --progress-num=1,2 "Built target client"
+.PHONY : CMakeFiles/client.dir/all
+
+# Include target in all.
+all: CMakeFiles/client.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/client.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/linux/gr-serial/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/client.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/linux/gr-serial/build/CMakeFiles 0
+.PHONY : CMakeFiles/client.dir/rule
+
+# Convenience name for target.
+client: CMakeFiles/client.dir/rule
+
+.PHONY : client
+
+# clean rule for target.
+CMakeFiles/client.dir/clean:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/clean
+.PHONY : CMakeFiles/client.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/client.dir/clean
 
 .PHONY : clean
 

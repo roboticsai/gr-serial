@@ -111,60 +111,124 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named gr-networking-sink
+# Target rules for targets named server
 
 # Build rule for target.
-gr-networking-sink: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 gr-networking-sink
-.PHONY : gr-networking-sink
+server: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 server
+.PHONY : server
 
 # fast build rule for target.
-gr-networking-sink/fast:
-	$(MAKE) -f CMakeFiles/gr-networking-sink.dir/build.make CMakeFiles/gr-networking-sink.dir/build
-.PHONY : gr-networking-sink/fast
+server/fast:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/build
+.PHONY : server/fast
 
 #=============================================================================
-# Target rules for targets named gr-networking-source
+# Target rules for targets named gr-networking
 
 # Build rule for target.
-gr-networking-source: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 gr-networking-source
-.PHONY : gr-networking-source
+gr-networking: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gr-networking
+.PHONY : gr-networking
 
 # fast build rule for target.
-gr-networking-source/fast:
-	$(MAKE) -f CMakeFiles/gr-networking-source.dir/build.make CMakeFiles/gr-networking-source.dir/build
-.PHONY : gr-networking-source/fast
+gr-networking/fast:
+	$(MAKE) -f CMakeFiles/gr-networking.dir/build.make CMakeFiles/gr-networking.dir/build
+.PHONY : gr-networking/fast
 
-gr_networking_source.o: gr_networking_source.cpp.o
+#=============================================================================
+# Target rules for targets named client
 
-.PHONY : gr_networking_source.o
+# Build rule for target.
+client: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 client
+.PHONY : client
+
+# fast build rule for target.
+client/fast:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/build
+.PHONY : client/fast
+
+client.o: client.c.o
+
+.PHONY : client.o
 
 # target to build an object file
-gr_networking_source.cpp.o:
-	$(MAKE) -f CMakeFiles/gr-networking-sink.dir/build.make CMakeFiles/gr-networking-sink.dir/gr_networking_source.cpp.o
-	$(MAKE) -f CMakeFiles/gr-networking-source.dir/build.make CMakeFiles/gr-networking-source.dir/gr_networking_source.cpp.o
-.PHONY : gr_networking_source.cpp.o
+client.c.o:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client.c.o
+.PHONY : client.c.o
 
-gr_networking_source.i: gr_networking_source.cpp.i
+client.i: client.c.i
 
-.PHONY : gr_networking_source.i
+.PHONY : client.i
 
 # target to preprocess a source file
-gr_networking_source.cpp.i:
-	$(MAKE) -f CMakeFiles/gr-networking-sink.dir/build.make CMakeFiles/gr-networking-sink.dir/gr_networking_source.cpp.i
-	$(MAKE) -f CMakeFiles/gr-networking-source.dir/build.make CMakeFiles/gr-networking-source.dir/gr_networking_source.cpp.i
-.PHONY : gr_networking_source.cpp.i
+client.c.i:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client.c.i
+.PHONY : client.c.i
 
-gr_networking_source.s: gr_networking_source.cpp.s
+client.s: client.c.s
 
-.PHONY : gr_networking_source.s
+.PHONY : client.s
 
 # target to generate assembly for a file
-gr_networking_source.cpp.s:
-	$(MAKE) -f CMakeFiles/gr-networking-sink.dir/build.make CMakeFiles/gr-networking-sink.dir/gr_networking_source.cpp.s
-	$(MAKE) -f CMakeFiles/gr-networking-source.dir/build.make CMakeFiles/gr-networking-source.dir/gr_networking_source.cpp.s
-.PHONY : gr_networking_source.cpp.s
+client.c.s:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client.c.s
+.PHONY : client.c.s
+
+gr_networking.o: gr_networking.cpp.o
+
+.PHONY : gr_networking.o
+
+# target to build an object file
+gr_networking.cpp.o:
+	$(MAKE) -f CMakeFiles/gr-networking.dir/build.make CMakeFiles/gr-networking.dir/gr_networking.cpp.o
+.PHONY : gr_networking.cpp.o
+
+gr_networking.i: gr_networking.cpp.i
+
+.PHONY : gr_networking.i
+
+# target to preprocess a source file
+gr_networking.cpp.i:
+	$(MAKE) -f CMakeFiles/gr-networking.dir/build.make CMakeFiles/gr-networking.dir/gr_networking.cpp.i
+.PHONY : gr_networking.cpp.i
+
+gr_networking.s: gr_networking.cpp.s
+
+.PHONY : gr_networking.s
+
+# target to generate assembly for a file
+gr_networking.cpp.s:
+	$(MAKE) -f CMakeFiles/gr-networking.dir/build.make CMakeFiles/gr-networking.dir/gr_networking.cpp.s
+.PHONY : gr_networking.cpp.s
+
+server.o: server.c.o
+
+.PHONY : server.o
+
+# target to build an object file
+server.c.o:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/server.c.o
+.PHONY : server.c.o
+
+server.i: server.c.i
+
+.PHONY : server.i
+
+# target to preprocess a source file
+server.c.i:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/server.c.i
+.PHONY : server.c.i
+
+server.s: server.c.s
+
+.PHONY : server.s
+
+# target to generate assembly for a file
+server.c.s:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/server.c.s
+.PHONY : server.c.s
 
 # Help Target
 help:
@@ -174,11 +238,18 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... gr-networking-sink"
-	@echo "... gr-networking-source"
-	@echo "... gr_networking_source.o"
-	@echo "... gr_networking_source.i"
-	@echo "... gr_networking_source.s"
+	@echo "... server"
+	@echo "... gr-networking"
+	@echo "... client"
+	@echo "... client.o"
+	@echo "... client.i"
+	@echo "... client.s"
+	@echo "... gr_networking.o"
+	@echo "... gr_networking.i"
+	@echo "... gr_networking.s"
+	@echo "... server.o"
+	@echo "... server.i"
+	@echo "... server.s"
 .PHONY : help
 
 

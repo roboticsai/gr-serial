@@ -1,4 +1,5 @@
 /home/linux/gr-serial/build/CMakeFiles/edit_cache.dir
 /home/linux/gr-serial/build/CMakeFiles/rebuild_cache.dir
-/home/linux/gr-serial/build/CMakeFiles/gr-networking-sink.dir
-/home/linux/gr-serial/build/CMakeFiles/gr-networking-source.dir
+/home/linux/gr-serial/build/CMakeFiles/server.dir
+/home/linux/gr-serial/build/CMakeFiles/gr-networking.dir
+/home/linux/gr-serial/build/CMakeFiles/client.dir

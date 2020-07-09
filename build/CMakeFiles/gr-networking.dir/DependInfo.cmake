@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/linux/gr-serial/gr_networking_source.cpp" "/home/linux/gr-serial/build/CMakeFiles/gr-networking-sink.dir/gr_networking_source.cpp.o"
+  "/home/linux/gr-serial/gr_networking.cpp" "/home/linux/gr-serial/build/CMakeFiles/gr-networking.dir/gr_networking.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
